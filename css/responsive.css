@@ -16,6 +16,26 @@
 		width: 45%;
 		}
 }
+/*ajustando el encabezado*/
+#logo{
+	float: left;
+	margin-left: 5%;
+	text-align: left;
+	width: 45%;
+}
+h1{
+	font-size: 1.5em;
+}
+h2{
+	font-size: 0.825em;
+	margin-bottom: 20px;
+}
+
+header{
+	border-bottom: 5px solid #599a68;
+	margin-bottom: 60px;
+}
+
 @media screen and (min-width: 	480px)
 {
 	#primary {
@@ -30,10 +50,11 @@
 	#galeria li {
 		width: 28.3333%;
 	}
-	/**Par  a eviatr q se sobre pongan las imagenes el 2 columna**/
+	/**Par  a evitar q se sobre pongan las imagenes en la 2 columna**/
 	#galeria li:nth-child(3n+1) {
 		clear: left;
 	}
+	/** para que en la pagina acercade la imagen salga a un lado del texto**/
 	.profile-photo {
 	float: left;
 	margin: 0 5% 120px 0;
