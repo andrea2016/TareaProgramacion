@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iniciar Sesion</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+
+	<form action="action_page" method="post">
+		<p>
+			<label for="username">Usuario</label>
+			<input id="username" name="username" type="text">
+		</p>
+		<p>
+			<label for="password">Clave</label>
+			<input id="password" name="password" type="password">
+			<span>Ingrese una clave mayor a 8 caracteres</span>
+		</p>
+		<p>
+			<label for="confirm_password">Confirme su clave</label>
+			<input id="confirm_password" name="confirm_password" type="password">
+			<span>Por favor confirme su clave</span>
+		</p>
+		<p>
+			<input type="submit" value="Registrarse">
+		</p>
+	</form>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
